@@ -1,0 +1,228 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #dee6e9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  display: grid;
+  width: 100%;
+  height: 50px;
+  margin-top: 0%;
+  grid-template-columns: 10% 50% 40%;
+  background-color: #131a22;
+  margin-bottom: 0%;
+}
+
+.header h2 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  color: #f2f2f2;
+  padding-left: 20%;
+  margin-top: 0.7rem;
+}
+
+.header nav {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.header nav ul {
+  list-style: none;
+  padding-top: 0.1rem;
+}
+
+.header nav li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.header nav a {
+  color: #f2f2f2;
+}
+
+.botomHeader {
+  width: 100%;
+  background-color: #232f3e;
+  color: #f2f2f2;
+  height: 30px;
+  padding-top: 0%;
+  margin-top: 0%;
+  border-top: solid black;
+  text-align: center;
+}
+
+.botomHeader p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.gridContainer {
+  width: 1200px;
+  height: 937px;
+  margin: auto;
+}
+
+.backgroundPic {
+  margin-top: 0%;
+  padding-top: 0%;
+  border-top: solid #dee6e9;
+  background-image: url(/pictures/slider_picture1.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  justify-self: center;
+  justify-content: start;
+  height: 735px;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: repeat(4, minmax(250px, 300px));
+  margin-left: 1rem;
+  margin-right: 1rem;
+  gap: 17px 26px;
+  margin-bottom: 0%;
+}
+
+.grid #topLeft {
+  background-color: white;
+  text-align: left;
+}
+
+.grid h3 {
+  text-align: center;
+}
+
+.grid img {
+  padding-left: 1.1rem;
+}
+
+.grid a {
+  font-size: 0.8rem;
+  margin-left: 1.2rem;
+  text-decoration: none;
+}
+
+.grid #topCenter1 {
+  background-color: white;
+}
+
+.grid #topCenter2 {
+  background-color: white;
+}
+
+.grid #topRight {
+  background-color: white;
+}
+
+.grid #bottomLeft {
+  background-color: white;
+}
+
+.grid #bottomCenter1 {
+  background-color: white;
+}
+
+.grid #bottomCenter2 {
+  background-color: white;
+}
+
+.grid #bottomRight {
+  background-color: #dee6e9;
+  display: grid;
+  grid-template-rows: repeat(2, 47.5%);
+  row-gap: 5%;
+  justify-content: stretch;
+}
+
+.grid #bottomRight #bRightTop {
+  background-color: white;
+}
+
+.grid #bottomRight #bRightTop p {
+  margin-left: 1.2rem;
+}
+
+.grid #bottomRight #bRightTop .button3 {
+  margin-left: 1.2rem;
+  background-color: #febd69;
+  border-radius: 8px;
+  border-color: #febd69;
+}
+
+.grid #bottomRight #bRightBottom {
+  background-color: #dee6e9;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  height: 200px;
+}
+
+.buttons .button2,
+.button1 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  font-size: 2rem;
+}
+
+.toTop {
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  background-color: #37475a;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+}
+
+.toTop:hover {
+  background-color: #485c74;
+}
+
+.button1:hover {
+  border: solid #485c74;
+}
+
+.button2:hover {
+  border: solid #485c74;
+}
+
+.overFooter {
+  width: 100%;
+  height: 50px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.overFooter img {
+  height: 37px;
+}
+
+footer {
+  border-top: solid #131a22;
+  text-align: center;
+  color: white;
+  background-color: #131a22;
+  width: 100%;
+  height: 100px;
+  margin-top: 0;
+}
